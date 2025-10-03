@@ -1,7 +1,6 @@
 import profiles from "./data.js";
 
 const container = document.getElementById("profile-container");
-const followBtn = document.getElementById("follow")
 console.log(profiles);
 
 profiles.forEach((profile) => {
@@ -39,40 +38,4 @@ profiles.forEach((profile) => {
 
 
 
-/*
-- big container for all cards
-    - sigle cards
-      - two section
-        - 1st sec. image align
-        - 2nd sec.  content
-             -div for content center
-             -div for stats
-                - div for followers  
-                - div for following  
-                - div for follow 
-                - div for message
-             -
-  -> add hover effect  
-  -> if i click follow change it Following
-  
-*/
 
-// <div class="card">
-//    ${profile.color}
-//    <img class="img" ${profile.img}>
-// </div>
-
-// <div>
-// <h3 class="name">${profile.name}</h3
-// <P class="role">${profile.role} </p>
-// </div>
-
-// <div>
-// <span class="followers">${profile.followers}</span>
-// <span class="following">${profile.following}</span>
-// </div>
-
-// <div>
-// <button class="btn follow"> Follow</button>
-// <button class="btn message"> Message</button>
-// </div>
