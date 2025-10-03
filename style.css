@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+    justify-content: center;
+    padding: 20px;
+}
+.card {
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden; 
+     padding-bottom: 20px;
+}
+
+.secone {
+    height: 100px;
+    background-color: pink;
+    position: relative; 
+}
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white; 
+    object-fit: cover;
+    position: absolute;
+    bottom: -40px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Section 2 */
+.sectwo {
+    padding-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.content p {
+    margin: 10px 0 20px 0;
+    font-size: 0.9rem;
+    color: gray; 
+    font-weight: 500; 
+   }
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.firstdiv {
+    /* color: red; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+    margin-bottom: 20px;
+ } 
+
+.followers,.following {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+}
+.followers::after {
+    content: "Followers";
+    font-size: 14px;
+    font-weight: normal;
+    color: red;
+    margin-top: 3px;
+}
+
+.following::after {
+    content: "Following";
+    font-size: 14px;
+    font-weight: normal;
+    color: red;
+    margin-top: 3px;
+}
+
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    width: 90%; 
+} 
+.btn {
+    padding: 8px 18px;
+    border: 2px solid pink;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    width: 45%; 
+}
+#follow {
+    background-color: pink;
+    color: gray;
+}
+
+#message {
+    border: 1px solid pink;
+    background-color: white;
+    color: pink;
+}
+
+
+#follow:hover {
+    background-color: gray;
+    color: white;
+}
+
+#message:hover {
+    background-color: pink;
+    color:gray;
+}
