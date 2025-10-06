@@ -16,4 +16,5 @@
 This is a small project where I created profile cards using HTML, CSS, and JavaScript.
 
 ## 🚀 Screenshot -> (demo.png)
+![image alt](https://github.com/muktaa20/profile-showcase/blob/75c40742fc37b400b93119c83d7cb6f7a0dbf18e/demo.png)
   
